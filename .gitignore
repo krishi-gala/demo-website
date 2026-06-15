@@ -1,7 +1,65 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependency folders
 node_modules/
 vendor/
-*.log
-.DS_Store
 
-wp-content/cache/
+# WordPress Core
+/wp-admin/
+/wp-includes/
+
+# WordPress root core files
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+# Environment / secrets
 wp-config.php
+.env
+
+# WordPress cache
+wp-content/cache/
+wp-content/advanced-cache.php
+
+# Uploads (heavy storage)
+wp-content/uploads/
+
+# Backup plugins
+wp-content/ai1wm-backups/
+wp-content/updraft/
+wp-content/backup-db/
+wp-content/backups/
+
+# Security / temp
+wp-content/wflogs/
+
+# Debug files
+debug.log
+
+# LocalWP specific
+app/sql/
+conf/
+logs/
+
+# IDE files
+.vscode/
+.idea/
